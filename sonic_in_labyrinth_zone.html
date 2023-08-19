@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sonic in Labyrinth Zone</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <audio autoplay loop id="myaudio">
+            <source src="./audio/04 StH1 Labyrinth Zone ~Mega Drive Version~.mp3">
+        </audio>
+
+    </head>
+    <body>
+        <div class="hero">
+
+            <div class="navbar">
+                <a href="https://www.sonicthehedgehog.com/" target="_blank" rel="noopener noreferrer" onclick="new_sonic_page()"><img src="./Coventic Webpage images/Sonic_The_Hedgehog_logo_(2006).png" class="logo" title="Go to the official Sonic the Hedgehog website!"></a>
+                <a href="https://www.youtube.com/watch?v=6YMCoQzsGtI" target="_blank" rel="noopener noreferrer" onclick="new_sonic_page()"><button type="button">Save Sonic</button></a>
+            </div>
+
+            <div class="content">
+                <small>Enjoy the sights here in</small>
+                <h1>Labyrinth<br>Zone!</h1>
+                <a href="https://sonic.fandom.com/wiki/Labyrinth_Zone" target="_blank" rel="noopener noreferrer" onclick="new_sonic_page()"><button type="button">Explore the depths</button></a>
+            </div>
+
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="copyright_content">
+                    <div class="close-btn" onclick="togglePopup()">&times;</div>
+                    <h1>Copyright Credits</h1>
+                    <p><br>'Sonic the Hedgehog', 'Sonic the Hedgehog 2006 Logo', 'Labyrinth Zone', and Sound Effects are owned by SEGA/Sonic Team<br><br>
+                        'Sonic in Water' image created by <a href="https://twitter.com/thewax70" target="_blank" rel="noopener noreferrer">TheWax</a><br><br>
+                        'Bubble' images provided by <a href="https://www.youtube.com/c/EasyTutorialsVideo" target="_blank" rel="noopener noreferrer">Easy Tutorials</a><br><br>
+                        'Labyrinth Zone' theme composed by Masato Nakamura
+                    </p>
+                </div>
+            </div>
+
+            <div class="side-bar">
+                <img src="./Coventic Webpage images/copyright.png" class="copyright" onclick="togglePopup(), popup_noise()" title="Copyright Credits">
+
+                <div class="social-links">
+                    <a href="https://www.facebook.com/Sonic/" target="_blank" rel="noopener noreferrer" onclick="new_sonic_page()"><img src="./Coventic Webpage images/fb.png" title="Official Sonic the Hedgehog Facebook"></a>
+                    <a href="https://www.instagram.com/sonicthehedgehog/" target="_blank" rel="noopener noreferrer" onclick="new_sonic_page()"><img src="./Coventic Webpage images/ig.png" title="Official Sonic the Hedgehog Instagram"></a>
+                    <a href="https://twitter.com/sonic_hedgehog" target="_blank" rel="noopener noreferrer" onclick="new_sonic_page()"><img src="./Coventic Webpage images/tw.png" title="Official Sonic the Hedgehog Twitter"></a>
+                </div>
+
+                <div class="useful-links">
+                    <a href="mailto:?subject=Check Out Hydrocity!&body=Visit file:///C:/Users/sagah/Desktop/AWESOME%20PROGRAMMING!/Visual%20Studio%20Files/HTML%20and%20Related/Sonic%20website/Sample%20Website/sonic_in_hydrocity.html for a cool experience!" onclick="new_email()"><img src="./Coventic Webpage images/share.png" title="Share this page via email!"></a>
+                    <a href="https://en.wikipedia.org/wiki/Sonic_the_Hedgehog" target="_blank" rel="noopener noreferrer" onclick="new_sonic_page()"><img src="./Coventic Webpage images/info.png" title="Sonic the Hedgehog Wikipedia Page"></a>
+                </div>
+
+            </div>
+
+            <div class="bubbles">
+                <div id="bub1" class="bubble1"><img src="./Coventic Webpage images/bubble.png"></div>
+                <div id="bub2" class="bubble2"><img src="./Coventic Webpage images/bubble.png"></div>
+                <div id="bub3" class="bubble3"><img src="./Coventic Webpage images/bubble.png"></div>
+                <div id="bub4" class="bubble4"><img src="./Coventic Webpage images/bubble.png"></div>
+                <div id="bub5" class="bubble5"><img src="./Coventic Webpage images/bubble.png"></div>
+                <div id="bub6" class="bubble6"><img src="./Coventic Webpage images/bubble.png"></div>
+                <div id="bub7" class="bubble7"><img src="./Coventic Webpage images/bubble.png"></div>
+                <div id="bub8" class="bubble8"><img src="./Coventic Webpage images/bubble.png"></div> 
+            </div>
+
+            <div class="mute">
+                <button onclick="mute_unmute()" id="myaudio">Mute/Unmute<br>Music</button>
+            </div>
+
+        </div>
+        <script src="scripts.js"></script> 
+    </body>
+</html>
